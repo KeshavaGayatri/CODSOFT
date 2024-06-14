@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar .social a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 60%;
+    padding: 20px;
+}
+
+.stories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    width: 45%;
+    margin: 20px 2.5%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.post .content {
+    padding: 15px;
+}
+
+.post .tag {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #333;
+}
+
+.post h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.sidebar-right {
+    width: 20%;
+    padding: 20px;
+}
+
+.sidebar-right .search input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.sidebar-right .popular-posts,
+.sidebar-right .recent-posts,
+.sidebar-right .categories {
+    margin-bottom: 20px;
+}
+
+.sidebar-right .popular-posts img,
+.sidebar-right .recent-posts ul li {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sidebar-right .recent-posts ul,
+.sidebar-right .categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-right .categories ul li {
+    margin-bottom: 10px;
+}
